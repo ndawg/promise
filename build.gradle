@@ -1,0 +1,16 @@
+group 'io.nwh'
+version '1.0'
+description 'A small Promise library for Java 8.'
+
+apply plugin: 'java'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	testCompile 'junit:junit:4.12'
+	testCompile 'com.diffplug.durian:durian:3.4.0'
+	testCompile 'org.awaitility:awaitility:3.0.0'
+	testCompile 'org.assertj:assertj-core:3.8.0'
+}
